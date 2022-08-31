@@ -5,7 +5,6 @@ metadata:
   namespace: natest-ecsdemo-nodejs
   labels:
     app: ecsdemo-nodejs
-  namespace: default
 spec:
   replicas: 1
   selector:
