@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: ecsdemo-nodejs
+  namespace: natest-ecsdemo-nodejs
   labels:
     app: ecsdemo-nodejs
   namespace: default
